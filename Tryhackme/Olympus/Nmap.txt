@@ -1,0 +1,1 @@
+# Nmap 7.92 scan initiated Thu Jul 21 23:26:54 2022 as: nmap -sC -sV -oN Nmap.txt 10.10.74.179

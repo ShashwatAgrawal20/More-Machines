@@ -1,0 +1,26 @@
+# Nmap 7.92 scan initiated Fri Jul  8 10:09:04 2022 as: nmap -sC -sV -oN Nmap.txt -Pn 10.10.224.126
+Nmap scan report for 10.10.224.126
+Host is up (0.26s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE          VERSION
+3389/tcp open  ms-wbt-server    Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: WIN-EOM4PK0578N
+|   NetBIOS_Domain_Name: WIN-EOM4PK0578N
+|   NetBIOS_Computer_Name: WIN-EOM4PK0578N
+|   DNS_Domain_Name: WIN-EOM4PK0578N
+|   DNS_Computer_Name: WIN-EOM4PK0578N
+|   Product_Version: 10.0.17763
+|_  System_Time: 2022-07-08T04:40:17+00:00
+|_ssl-date: 2022-07-08T04:40:18+00:00; +43s from scanner time.
+| ssl-cert: Subject: commonName=WIN-EOM4PK0578N
+| Not valid before: 2022-07-07T04:36:57
+|_Not valid after:  2023-01-06T04:36:57
+8021/tcp open  freeswitch-event FreeSWITCH mod_event_socket
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 42s, deviation: 0s, median: 41s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul  8 10:09:35 2022 -- 1 IP address (1 host up) scanned in 31.26 seconds
